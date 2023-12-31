@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+*{  
+    font-family: Mulish;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+background-image: url("../img/pour2.jpg");
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500vw;
+    padding: 50px;
+    border-radius: 50px;
+    position: relative;
+    backdrop-filter: blur(5px);
+    background: transparent;
+  }
+  
+  .title {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 142px;
+    color: #DFD9CA;
+  }
+  .message, 
+  .signin {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .signin a {
+    color: 00bfff;
+  }
+  .signin a:hover{
+    color: royalblue;
+  }
+  
+  .flex {
+    display: flex;
+    width: 20vw;
+    gap: 7px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,
+  .form label .input:valid + span {
+    color: #DFD9CA;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: medium;
+  }
+  
+  .submit {
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #00bfff96;
+  }
